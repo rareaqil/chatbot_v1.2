@@ -19,7 +19,7 @@
       "tag":"gajelas",
       "patterns":["babi","katakasar", "cuk", "blok", "bacot", "pantek", "titit","tete", "kntl", "pap tete", "anjay", "anjir", "bjir", "bangsat kau", "anjing","tai", "toi", "bajingan", "bangsat", "gajelas", "tolol", "bangke", "bitch", "goblok", "asu", "jancok", "bodoh", "jelek", "idiot", "gila", "coli", "fuck", "shit", "blok", "skip", "kontol", "bento", "bokep", "pornhub", "hitam", "putih", "boobs", "tomlol", "fuck you", "ngentod", "rasis", "yatim", "piatu", "kocluk", "basi", "bosok", "busuk", "kampret", "bodo", "cebong", "sexi", "memek", "kimochi", "pukon", "kentot", "kakekane", "dantoi"],
       "responses":[
-        "Maaf, Apa Yang Kamu Katakan Itu Tidak Baik"
+        "Maaf kami tidak mengerti, coba ketik <b>help</b>"
         ]
     },
     {
@@ -191,9 +191,9 @@
     },
     {
       "tag":"chapadarti",
-      "patterns":["apa itu chapad", "arti chapad", "chapad itu apa", "chapad", "chapad ?", "chapad artinya","chapad?", "chapad artinya apa", "chapat"],
+      "patterns":["apa itu padangbana", "arti padangbana", "padangbana itu apa", "padangbana", "padangbana ?", "padangbana artinya","padangbana?", "padangbana artinya apa", "padang bana"],
       "responses":[
-        "ChaPad Artinya ChatBot Padang atau ChatBot Rumah <br> Makan Padang"
+        "Padang Bana Artinya 'Padang Bener' ChatBot Padang atau ChatBot Rumah <br> Makan Padang"
         ]
     },
 
@@ -301,8 +301,8 @@
         ]
     },
     {
-      "tag":"contac",
-      "patterns":["contac", "kontak", "hubungi", "telp", "wa", "telepon", "nomorhp", "hp", "handphone", "no hp", "nomor hp", "ada no hp", "ada kontaknya"],
+      "tag":"contact",
+      "patterns":["contact", "kontak", "hubungi", "telp", "wa", "telepon", "nomorhp", "hp", "handphone", "no hp", "nomor hp", "ada no hp", "ada kontaknya"],
       "responses":[
         "<a href='https://wa.me/081234567890'> https://wa.me/081234567890 </a>"
       
@@ -317,10 +317,10 @@
       ]
     },
     {
-      "tag":"no answer",
+      "tag":"noanswear",
       "patterns":[""],
       "responses":[
-          "Maaf, Saya Tidak Mengerti"
+          "Maaf kami tidak mengerti, coba ketik <b>help</b>"
       ]
     }
   ]
