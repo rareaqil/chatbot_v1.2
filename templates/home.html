@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="static/img/bot.png">
+  <title>PadangBana</title>
+  <meta name="description" content="Chatbot Rumah Makan Padang">
+  <meta name="keywords" content="membantu dalam mengetahui segalaha hal tentang rumah makan padang">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+ 
+</head>
+
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">Tentang</a>
+            <a href="#tim">Tim Kita</a>
+            <a href="/chatbot">Pergi ke Chatbot</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Padang Bana</h1>
+            <h2 style="color:white;" >Chatbot Rumah Makan Padang</h2>
+            <a style="color: rgb(254, 147, 47); background-color: white; font-weight:bold;" class="btn btn-imfo btn-read-more" href="/chatbot">Say Hi to Bot</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Tentang Chabot RM Padang</h1>
+          <p class="header-p">Nasi Padang adalah makanan yang paling
+            populer dengan ciri khas masakan yg
+            pedas, tidak hanya disajikan di kota Padang,
+            tetapi rumah makan Padang sudah populer
+            banget di seluruh Indonesia dan negara
+            tetangga. Hidangannya yang biasanya
+            disajikan secara lengkap secara prasmanan
+            dengan daging, ikan, sayuran.
+            Masakan Khas Padang Cocok dengan Lidah
+            Kebanyakan Masyarakat Indonesia dengan
+            bumbu yang khas dan cita rasa tinggi,
+            makanan Padang bahkan jadi favorit
+            masyarakat.
+            Karena banyaknya peminat dari masakan
+            Padang ini, kami berinisiatif untuk membuat
+            chatbot yang berisi beberapa informasi
+            tentang masakan Padang,  untuk membantu
+            para konsumen agar mudah mendapatkan
+            informasi.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">Pada Chatbot ini</h2>
+              <p>Kamu Bisa Mengetikkan Kata Yang Berhubungan Dengan Apa Yang Anda Ingin Ketahui Seperti Menu, Harga, Lauk, Minuman, dan Hal yang lainnya seperti Pantun, Kata kata bijak, Kata kata motivasi</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Lokasi Warung Terdekat</li>
+                  <li><i class="fa fa-check"></i>Harga Terkini</li>
+                  <li><i class="fa fa-check"></i>Menu Yang di Sediakan</li>
+                  <li><i class="fa fa-check"></i>Banyak Hal lainnya</li>
+                </ul>
+              </div>
+              <a style=" font-weight:bold;" class="btn btn-imfo btn-read-more" href="/chatbot">Pergi Ke Bot</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <img src="static/img/dashboard-rmpadang.jpeg" alt="" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- tim -->
+  <section id="tim">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Tim Kita</h1>
+            <p style="color:white" class="header-p">Semua Kerja Keras Kita Menjadi Ini</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-3 col-sm-3 left-images">
+                <img src="static/img/dicky.jpg" style="width: 100%; height: 323px; object-fit: cover;">
+              </div>
+              <div class="col-md-3 col-sm-3 details-text">
+                <div class="content-holder">
+                  <h2>Dicky</h2>
+                  <p>Data</p>
+                  <address style="color:white">
+                              <strong>Nama: </strong>
+                              Dicky Bagas Oktavandi
+                              <br>
+                              <strong>IG: </strong>
+                              -
+                              <br>
+                              <strong>Linkedin: </strong>
+                              -
+                              <br>
+                              <strong>Email: </strong>
+ <br>                              penyedotpahala@gmail.com
+                              <br>
+                              <strong>Github: </strong>
+                              -
+                            </address>
+                  <!-- <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="item active left">
+              <div class="col-md-3 col-sm-3 left-images">
+                <img src="static/img/huda.jpg" style="width: 100%; height: 323px; object-fit: cover;">
+              </div>
+              <div class="col-md-3 col-sm-3 details-text">
+                <div class="content-holder">
+                  <h2>Huda</h2>
+                  <p>Modeling</p>
+                  <address style="color:white">
+                              <strong>Nama: </strong>
+                              Mahdarul Huda Ahmad
+                              <br>
+                              <strong>IG: </strong>
+                              <a style="color: white;" href="https://www.instagram.com/darulhda/">darulhda</a>
+                              <br>
+                              <strong>Linkedin: </strong>
+                              darulhda
+                              <br>
+                              <strong>Email:</strong>
+  <br>                             daruldarel44@gmail.com
+                              <br>
+                              <strong>Github: </strong>
+                              darulhda
+                            </address>
+                  <!-- <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a> -->
+                </div>
+              </div>
+            </div>
+            <div class="item active left">
+              <div class="col-md-3 col-sm-3 details-text">
+                <div class="content-holder">
+                  <h2>Rare</h2>
+                  <p>Deployment</p>
+                  <address style="color:white">
+                    <strong>Nama: </strong>
+                    Rare Aqil Aflahudin Jenar
+                    <br>
+                    <strong>IG: </strong>
+                    <a style="color: white;" href="https://www.instagram.com/rareaqil/">rareaqil</a>
+                    <br>
+                    <strong>Linkedin: </strong>
+                    rareaqil
+                    <br>
+                    <strong>Email: </strong>
+                   rareaqil123@gmail.com
+                    <br>
+                    <strong>Github: </strong>
+                    rareaqil
+                  </address>
+                  <!-- <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a> -->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-3 left-images">
+                <img src="static/img/rare.jpg" style="width: 100%; height: 323px; object-fit: cover;">
+              </div>
+            </div>
+            <div class="item active left">
+              <div class="col-md-3 col-sm-3 details-text">
+                <div class="content-holder">
+                  <h2>Firda</h2>
+                  <p>Dokumentator</p>
+                  <address style="color:white">
+                    <strong>Nama: </strong>
+                    Faridatul Warda
+                    <br>
+                    <strong>IG: </strong>
+                    <a style="color: white;" href="https://www.instagram.com/Firda_lanova/">Firda_lanova</a>
+                    <br>
+                    <strong>Linkedin: </strong>
+                    -
+                    <br>
+                    <strong>Email: </strong>
+ <br>                    firdalanova@gmail.com
+                    <br>
+                    <strong>Github: </strong>
+                    -
+                  </address>
+                  <!-- <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a> -->
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-3 left-images">
+                <img src="static/img/firda.jpg" style="width: 100%; height: 323px; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ tim -->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">Padang Bana</h4>
+            <address>Surabaya</address>
+            <p class="copyright clear-float">
+              © PadangBanaComp
+              <div class="credits">
+                <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                -->
+                Designed by <a href="https://www.instagram.com/rareaqil/">Me</a>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.easing.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+</body>
+
+</html>

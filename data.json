@@ -1,0 +1,327 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "patterns":["halo","hi","p", "cuy", "besti", "bro", "bre", "hai di sana", "senang bertemu denganmu", "hai, apakah ini rumah makan padang", "hei di sana", "hei", "hai ","hai, senang bertemu denganmu", "halo di sana", "ada orang di sana?", "hallo", "ketuk ketukan","sapaan", "permisi" ,"hello", "hy", "siapa disana"],
+      "responses":[
+        "Hai. Selamat datang di Rumah Makan Padang",
+        "Hallo, Apakah kamu butuh bantuan?",
+        "Selamat datang, ada yang bisa saya bantu ?",
+        "Hay, Selamat datang di Rumah Makan Padang",
+        "Hai kakak, apa ada yang kamu inginkan ?",
+        "Hallo, Ada yang bisa saya bantu ?",
+        "Hay, Apa ada yang kamu butuhkan ?",
+        "Hallo, Apakah kamu perlu sesuatu ?",
+        "Ada yang bisa saya bantu ?"
+        ]
+    },
+    {
+      "tag":"gajelas",
+      "patterns":["babi","katakasar", "cuk", "blok", "bacot", "pantek", "titit","tete", "kntl", "pap tete", "anjay", "anjir", "bjir", "bangsat kau", "anjing","tai", "toi", "bajingan", "bangsat", "gajelas", "tolol", "bangke", "bitch", "goblok", "asu", "jancok", "bodoh", "jelek", "idiot", "gila", "coli", "fuck", "shit", "blok", "skip", "kontol", "bento", "bokep", "pornhub", "hitam", "putih", "boobs", "tomlol", "fuck you", "ngentod", "rasis", "yatim", "piatu", "kocluk", "basi", "bosok", "busuk", "kampret", "bodo", "cebong", "sexi", "memek", "kimochi", "pukon", "kentot", "kakekane", "dantoi"],
+      "responses":[
+        "Maaf, Apa Yang Kamu Katakan Itu Tidak Baik"
+        ]
+    },
+    {
+      "tag":"basabasib",
+      "patterns":["kamu dari mana", "kamu asli mana", "kamu orang mana", "kamu asal mana"],
+      "responses":[
+        "Aku Orang Padang Asli"
+        ]
+    },
+    {
+      "tag":"waktubuka",
+      "patterns":["waktu buka", "kapan buka", "buka jam berapa", "buka jam", "jam buka", "buka waktu", "buka dari jam", "kapan dibuka", "mulai jam berapa dibuka"],
+      "responses":[
+        "Kami Buka Dari Jam 08.00 WIB Dan Tutup Di Jam 22.00 WIB"
+        ]
+    },
+    {
+      "tag":"basabasid",
+      "patterns":["y", "o", "ya", "sip", "iya", "itu", "ini", "yoi", "yo", "ye", "salam kenal", "siap", "bagus", "udah selesai", "enak?", "enak ?", "makanannya enak", "makanannya enak ?", "jangan lupa", "jagan lupa minum", "cakep", "jos"],
+      "responses":[
+        "Iya"
+        ]
+    },
+    {
+      "tag":"basabasig",
+      "patterns":["masuk pak eko", "mantap", "mantep", "jozz"],
+      "responses":[
+        "He He He"
+        ]
+    },
+    {
+      "tag":"basabasie",
+      "patterns":["udah makan", "udah makan yank", "udah makan yang", "udah makan ayank", "udah makan beb", "ayank udah makan", "ayang udah makan", "udah kenyang beb", "udah kenyang yank", "udah selesai makan yank", "udah selesai yang"],
+      "responses":[
+        "Udah Yank",
+        "Udah Ayank"
+        ]
+    },
+    {
+      "tag":"basabasia",
+      "patterns":["lagi apa", "kamu lagi apa", "kamulagiapa", "kamulagiapa?", "kamu lagi apa ?", "sedang apa", "lagi ngapain yank", "lagi ngapain ayank", "lagi ngapain ayang"],
+      "responses":[
+        "lagi nemenin kamu"
+        ]
+    },
+    {
+      "tag":"pantun",
+      "patterns":["pantun", "pantun dong", "pantun yank", "pantun beb", "pantun slur", "pantun bang", "coba pantun", "ayank pantun", "hiburan", "ada hiburan", "ada pantun"],
+      "responses":[
+        "Ikan Hiu Makan Tomat <br> Kelompokku Paling Hebat",
+        "Saringan santan mahal harganya <br> Buanglah mantan pada tempatnya",
+        "Pohon benalu di pohon randu <br> Pulang malu tak pulang rindu",
+        "Satu titik di kertas koran <br> Neng cantik yuk ke pelaminan"
+        ]
+    },
+    {
+      "tag":"katabijak",
+      "patterns":["bijak", "kata bijak", "motivasi", "katabijak", "kata kata bijak", "motivator"],
+      "responses":[
+        "Balas Dendam Terbaik Adalah <br> Menjadikan Dirimu Lebih Baik",
+        "Berpikirlah Positif <br> Tidak Peduli Seberapa Keras Kehidupanmu",
+        "Tujuan Hidup Kita Adalah <br> Menjadi Bahagia",
+        "Hidup Bukan Tentang Menunggu Badai Berlalu <br> Tetapi Belajar Menari Di Tengah Hujan",
+        "Sesungguhnya Disetiap Kesulitan <br> Pasti Ada Kemudahan",
+        "Sukses Adalah Sebuah Perjalanan",
+        "Janganlah Kamu Mengucapkan Perkataan <br> Yang Kamu Sendiri Tidak Menyukainya",
+        "Bila Gagal. Ya Coba Lagi!"
+        ]
+    },
+    {
+      "tag":"squidward",
+      "patterns":["spongebob", "kata bijak squidward", "yg lain", "kata kata lain", "sposbob", "squidward", "squidward tentacle", "squidwardtentacle", "tentacle", "mrs Puff", "puff", "mrsPuff", "sandy cheeks", "sandycheeks", "kata kata spongebob", "plankton", "plangton", "kataplankton", "motivasi spongebob", "motivasispongebob", "motivasiplankton", "motivasisquidwardtentacle", "motivasisquidward", "pearl", "squidward bijak", "squidwardtentaclebijak", "squidward bijak", "kata kata squidward", "kata kata squidwardtentacle", "kata kata squidward tentacle", "kata kata bijak spongebob", "spongebob bijak", "spongebob motivasi", "spongebob kata kata", "spongebob kata", "sandycheeks", "kata kata sandy", "kata kata sandy cheeks", "motivasi sandycheeks", "sandy cheeks kata kata", "kata motivasi spongebob", "spongebob patrick sandy plankton tuan crab puff"],
+      "responses":[
+        "Semua Orang Memikirkan Dirinya Sendiri <br> Termasuk Aku -Squidward Tentacle-",
+        "Semua Orang Tidak Mengerti <br> Apa Itu Seni -Squidward Tentacle-",
+        "Juara Adalah Yang Bangkit Dan <br> Mencoba Sekali Lagi -Squidward Tentacle-",
+        "Untuk Membuat Kesuksesan Otot Lebih <br> Dibutuhkan Daripada Senyum <br> -Squidward Tentacle-",
+        "Aku Sudah Jadi Orang Yang Diam <br> Tapi Kenapa Masih Ada Yang Mengusikku <br> -Squidward Tentacle-",
+        "Kenapa Hidup Ini Dipenuhi Oleh <br> Orang-orang Menyebalkan -Squidward Tentacle-",
+        "Seragam Adalah Simbol Ketertindasan <br> -Squidward Tentacle-",
+        "Hidup Ini Memang Tidak Adil Jadi <br> Biasakanlah Dirimu -Squidward Tentacle-",
+        "Orang Banyak Bicara Ketika Mereka <br> Ingin Terlihat Pintar -Squidward Tentacle-",
+        "Kenapa Kau Lakukan Sekarang Kalau <br> Kau Bisa Melakukannya Besok <br> -Squidward Tentacle-",
+        "Rumah Adalah Di Mana Kau Di Kelilingi <br> Orang Yang Sayang Padamu -Sandy Cheeks-",
+        "Lebih Baik Merasa Di Cintai Dan Kehilangan <br> Daripada Tidak Di Cintai Sama Sekali <br> -Plankton-",
+        "Umur Tidak Bisa Di Jadikan Pengukur Seberapa <br> Dewasanya Seseorang -Captain Frosty-",
+        "Seharusnya Kamu Belajar Berjalan Dulu <br> barulah kamu bisa berlari -Mrs. Puff-",
+        "Kau Harus Berhenti Menilai Orang Dari <br> Penampilannya Saja -Spongebob Squarepants-",
+        "Bahagia Itu Di Ciptakan <br> Bukan Di Cita-citakan -Spongebob Squarepants-",
+        "Keraguan Membunuh Lebih Banyak Mimpi <br> Daripada Kegagalan -Spongebob Squarepants-",
+        "Pengetahuan Tidak Bisa Menggantikan <br> Persahabatan -Patrick Star-",
+        "Diam Tak Akan Menyelesaikan Masalah <br> Tapi Diam Juga Tak Akan Menimbulkan <br> Masalah -Patrick Star-",
+        "Pemujaan Yang Berlebihan Itu Tidak Baik <br> -Patrick Star-",
+        "Waktu Adalah Uang -Tuan Crab-",
+        "Semakin Dewasanya Kamu <br> Semakin Pusing Kepalamu -Plankton-",
+        "Jangan Menjadi Pelangi Untuk <br> Seseorang Yang Buta Warna -Plankton-",
+        "Semua Orang Yang Ingin Sukses Tahu Apa <br> Yang Harus Mereka Korbankan -Tuan Crab-",
+        "Periksa Dulu Dirimu Sebelum Kamu <br> Memeriksa Orang Lain -Sandy Cheeks-"
+
+        ]
+    },
+    {
+      "tag":"patrik",
+      "patterns":["patrik", "patrick", "patrick star", "patrickstar", "katapatrick", "kata bijak patrick", "kata kata patrick", "motivasi patrick"],
+      "responses":[
+        "Pengetahuan Tidak Bisa Menggantikan <br> Persahabatan -Patrick Star-",
+        "Diam Tak Akan Menyelesaikan Masalah <br> Tapi Diam Juga Tak Akan Menimbulkan <br> Masalah -Patrick Star-",
+        "Pemujaan Yang Berlebihan Itu Tidak Baik <br> -Patrick Star-"
+        ]
+    },
+    {
+      "tag":"crab",
+      "patterns":["kata kata spongebob", "tuan crab", "crab", "kata kata tuan crab", "tuancrab", "tuan crab bijak"],
+      "responses":[
+        "Waktu Adalah Uang -Tuan Crab-",
+        "Uang Uang Uang Uang Uang Uang -Tuan Crab-",
+        "Semua Orang Yang Ingin Sukses Tahu Apa <br> Yang Harus Mereka Korbankan -Tuan Crab-"
+        ]
+    },
+    {
+      "tag":"windahbasudara",
+      "patterns":["windahbasudara", "windah basudara", "brando", "windah", "basudara", "raja mexiko", "kontolodon", "ilham", "absen", "bocil", "ilham", "bocil menyerang", "adick", "adick adick", "ges", "gaes", "absen bang", "absenbang", "bang brando"],
+      "responses":[
+        "Hallo Adik Adik"
+        ]
+    },
+    {
+      "tag":"deddy",
+      "patterns":["podcast", "closethedoor", "fivefourthreetwoone", "deddy", "corbuzier", "deddycorbuzier", "deddy corbuzier"],
+      "responses":[
+        "Five Four Three Two One Close The Door"
+        ]
+    },
+    {
+      "tag":"basabasic",
+      "patterns":["lagi apa yank", "kamu lagi apa yank", "kamulagiapayank", "kamulagiapayank?", "kamu lagi apa sayank?", "sedang apa sayank", "lagi apa yang", "kamu lagi apa yank", "kamulagiapsayang", "kamulagiapsayang?", "kamu lagi apa sayang?", "sedang apa sayang", "lagi apa ayank", "kamu lagi apa ayank", "kamulagiapsayank", "kamulagiapacantik?", "kamu lagi apa ayank?", "sedang apa ayank"],
+      "responses":[
+        "iya yank,ini lagi nemenin kamu yank"
+        ]
+    },
+    {
+      "tag":"ayang",
+      "patterns":["ayang", "hallo ayang", "owalah", "iya ayang", "jadi sayang", "jadisayang", "jadi sayank", "iyaayang", "iyaayank", "ayank", "sayank", "sayang", "iya ayank", "hallo ayank", "haloyank", "yank"],
+      "responses":[
+        "iya ayang",
+        "iya ayank"
+        ]
+    },
+    {
+      "tag":"bebeb",
+      "patterns":["halo beb", "bebeb", "iya beb", "iya bebeb", "iyabebeb"],
+      "responses":[
+        "Iya Bebeb"
+        ]
+    },
+    {
+      "tag":"mangan",
+      "patterns":["makan apa", "udah makan apa", "makan apaan", "makanapa", "makan apa ?", "makanapa?", "kamu makan apa", "makanan kesukaan kamu apa"],
+      "responses":[
+        "Makan Nasi Padang"
+        ]
+    },
+    {
+      "tag":"nama",
+      "patterns":["what your name", "nama siapa", "namamu siapa", "kamu siapa", "siapa", "nama", "name", "kamu siapa", "kamu", "kenalan", "kenalin", "saya budi", "siapa kamu", "kenalan dong", "siapa ya", "intro", "cek"],
+      "responses":[
+        "Hallo, Saya Chatbot Rumah Makan Padang"
+        ]
+    },
+    {
+      "tag":"chapadarti",
+      "patterns":["apa itu chapad", "arti chapad", "chapad itu apa", "chapad", "chapad ?", "chapad artinya","chapad?", "chapad artinya apa", "chapat"],
+      "responses":[
+        "ChaPad Artinya ChatBot Padang atau ChatBot Rumah <br> Makan Padang"
+        ]
+    },
+
+    {
+      "tag":"rego",
+      "patterns":["apa saja menunya ?", "makan bang", "lauk", "ada apa saja ?", "berapa harganya ?", "menu", "makanan", "makanan apa saja ?", "menunya", "mau makan apa ?", "mau makan apa", "maumakanapa?", "maumakanapa", "harganya berapaan ?", "harganya berapaan", "adaapaaja?", "menunya?", "menunyamana", "menunya ?", "daftarharga", "daftar menu", "menu-menunya", "mau makan", "saya mau makan", "sayamaumakan", "apasajamenunya?", "apasajamenunya", "menunya bang", "menunya kak", "ini menunya bang", "iya menunya", "kita mau makan", "ada makanan", "masak apa saja", "harga" ],
+      "responses":[
+          
+          "MENU SATUAN <br> -AYAM <br> ~Ayam Bakar = 12 500 <br> ~Ayam Cabe Ijo = 12 500 <br> ~Ayam Goreng = 12 500 <br> ~Ayam Goreng Balado = 12 500 <br> ~Ayam Gulai = 12 500 <br> ~Ayam Rendang = 12 500 <br> ~Ayam Pop = 12 500 <br><br> -DAGING <br> ~Rendang Paru = 60 000 <br> ~Dendeng Balado/Kering = 14 000 <br> ~Dendeng Batokok/Basah = 14 000 <br> ~Dendeng Iris = 14 000 <br> ~Gulai Cincang Sapi = 14 000 <br> ~Gulai Otak = 14 000 <br> ~Gulai Kikil/Tunjang = 14 000 <br> ~Kikil/Tunjang Cabe Ijo = 14 000 <br> ~Paru Goreng = 14 000 <br> ~Rendang Daging = 14 000 <br><br> -IKAN <br> ~Asam Pedas Tongkol = 12 500 <br> ~Gulai Cumi-Cumi = 25 000 <br> ~Gulai Ikan Kakap Kuning = 17 500 <br> ~Gulai Ikan Tongkol = 15 000 <br> ~Gulai Ikan Tenggiri = 15 000 <br> ~Gulai Telur Ikan = 12 000 <br> ~Gulai Kepala Kakap = 45 000 <br> ~Ikan Bawal Bakar = 23 000 <br> ~Ikan Kembung Bakar = 15 000 <br> ~Ikan Nila Bakar = 20 000 <br> ~Ikan Bilis Sambal Ijo = 15 000 <br><br> -SAYUR <br> ~Jengkol Balado = 15 000 <br> ~Brokoli Bawang Putih = 10 000 <br> ~Kailan Bawang Putih = 10 000 <br> ~Tumis Sayur Pare = 10 000 <br> ~Sayur Nangka = 5 000 <br> ~Sayur Singkong = 5 000 <br> -TELUR <br> ~Telur Balado = 7 000 <br> ~Telur Dadar = 7 000 <br> ~Telur Gulai = 7 000 <br> ~Perkedel = 7 000 <br><br> -SAMBAL <br> ~Sambal Goreng Asin Tempe = 10 000 <br> ~Sambal Goreng Ati Ampela = 10 000 <br> ~Sambal Goreng Jengkol = 10 000 <br> ~Sambal Goreng Teri Terong = 10 000 <br> ~Sambal Goreng Udang = 15 000 <br> ~Sambal Kentang Telur Puyuh = 10 000 <br> ~Terong Balado = 10 000 <br> ~Sambal Ijo = 5 000 <br> ~Sambal Merah = 5 000 <br><br> -MINUMAN <br> ~Es Teh Manis/Teh Manis Panas = 5 000 <br> ~Air Putih = 1 000 <br><br> -LAINNYA <br> ~Kerupuk Kulit = 5 000 <br> ~Kerupuk Kulit + Kuah = 6 000 <br> ~Nasi Putih = 5 000 <br> ~Nasi Putih Tambah = 3 000 <br> ~Nasi Merah = 6 000 <br> ~Nasi Merah Tambah = 4 000 <br> ~Lalapan = 5 000"
+      ]
+    },
+    {
+      "tag":"ayam",
+      "patterns":["ayam", "dada", "paha", "lauk ayam", "Ayam Bakar", "bakar", "Ayam Cabe Ijo", "Ayam Goreng", "goreng", "Ayam Goreng Balado", "Ayam Gulai", "Ayam Pop", "harga ayam", "ayam harga", "hargaayam", "harga ayam goreng", "harga ayam pop", "harga ayam rendang"],
+      "responses":[
+          "-AYAM <br> ~Ayam Bakar = 12 500 <br> ~Ayam Cabe Ijo = 12 500 <br> ~Ayam Goreng = 12 500 <br> ~Ayam Goreng Balado = 12 500 <br> ~Ayam Gulai = 12 500 <br> ~Ayam Rendang = 12 500 <br> ~Ayam Pop = 12 500"
+        ]
+    },
+    {
+      "tag":"daging",
+      "patterns":["daging", "cow", "dendeng", "paru", "sapi", "kambing", "kerbau", "otak", "kikil", "rendang sapi", "gulai otak", "sapi cincang", "daging sapi", "rendang daging", "paru goreng", "dendeng balado", "rendang paru", "Dendeng Balado", "Dendeng Batokok", "gulai kikil", "gulai sapi", "gulai daging", "kikil pedas", "otak sapi", "paru paru", "paru-paru", "paru2", "paruparu", "dagingsapi", "gulaisapi", "hargagulaisapi", "harga otak", "harga gulai sapi", "harga sapi", "harga daging", "harga gulai daging", "hargagulaidaging", "hargaotak", "harga kikil", "hargakikil", "tunjang", "harga tunjang", "hargatunjang", "sapi besar", "sapi daging", "dendengsapi", "dendeng sapi", "dendeng daging", "dendeng pedas", "dendeng gulai", "dendeng basah", "dendeng kering", "ada gulai?", "ada gulai ?", "ada otak?", "adaotak", "ada otak ?", "otak pedas"],
+      "responses":[
+        "-DAGING <br> ~Rendang Paru = 60 000 <br> ~Dendeng Balado/Kering = 14 000 <br> ~Dendeng Batokok/Basah = 14 000 <br> ~Dendeng Iris = 14 000 <br> ~Gulai Cincang Sapi = 14 000 <br> ~Gulai Otak = 14 000 <br> ~Gulai Kikil/Tunjang = 14 000 <br> ~Kikil/Tunjang Cabe Ijo = 14 000 <br> ~Paru Goreng = 14 000 <br> ~Rendang Daging = 14 000"
+        ]
+    },
+    {
+      "tag":"ikan",
+      "patterns":["ikan","fish", "kakap", "ikankakap", "ikan kakap", "tongkol", "ikan tongkol", "ikantongkol", "apakahadaikan", "ikan ada?", "seafood", "cumi", "cumicumi", "cumi-cumi", "cumi cumi", "gurita", "ikan tenggiri", "gulaikepalakakap", "gulai kepala kakap", "berapa harga ikan", "hargaikanberapa", "apakah ada ikan", "apakah ada cumi", "apakahadaikan", "ikan enak?", "ikan nila", "nila bakar", "ikannila", "ikan nila bakar", "ikan kakap kuning", "ikan bawal", "bawal bakar", "ikanbakarpedas", "ikan bakar", "ikanbakar", "bawalbakar", "telur ikan", "telurikan", "kakap kuning", "kakapkuning", "ikan ikan", "menu ikan", "gulai ikan kakap", "gulaiikan", "gulaikepalakakap", "gulai kepala kakap", "harga gulai kakap", "hargatelurikan", "harga telur ikan", "harga telur ikan ?", "nila"],
+      "responses":[
+        "-IKAN <br> ~Asam Pedas Tongkol = 12 500 <br> ~Gulai Cumi-Cumi = 25 000 <br> ~Gulai Ikan Kakap Kuning = 17 500 <br> ~Gulai Ikan Tongkol = 15 000 <br> ~Gulai Ikan Tenggiri = 15 000 <br> ~Gulai Telur Ikan = 12 000 <br> ~Gulai Kepala Kakap = 45 000 <br> ~Ikan Bawal Bakar = 23 000 <br> ~Ikan Kembung Bakar = 15 000 <br> ~Ikan Nila Bakar = 20 000 <br> ~Ikan Bilis Sambal Ijo = 15 000"
+        ]
+    },
+    {
+      "tag":"sayur",
+      "patterns":["sayur", "kangkung", "tomat", "wortel", "kecambah", "kacang panjang","jengkol", "jengkolbalado", "jengkol balado", "bawang putih", "tumis", "tumissayur", "tumis sayur", "pare", "sayur nangka", "nangka", "sayur singkong", "singkong", "sayursingkong", "sayurnangka", "hargasayur", "berapahargasayur", "ada sayur", "apa ada tumis", "sayuran", "berapahargantumis", "tumisnya ada", "apakah ada sayur", "sayur lodeh", "berapahargasayur ?", "berapahargasayur?", "brokoli", "bawang merah", "bawangputih", "bawangmerah", "bawangbombai", "sayurpare", "daun singkong", "daun pepaya", "berapa harganya sayur itu", "brphargasayurnya"],
+      "responses":[
+        "-SAYUR <br> ~Jengkol Balado = 15 000 <br> ~Brokoli Bawang Putih = 10 000 <br> ~Kailan Bawang Putih = 10 000 <br> ~Tumis Sayur Pare = 10 000 <br> ~Sayur Nangka = 5 000 <br> ~Sayur Singkong = 5 000"
+        ]
+    },
+    {
+      "tag":"telur",
+      "patterns":["telur", "dadar", "gulai telur", "perkedel", "telurbalado",  "harga telur", "ada telur", "ada telur?", "berapa telurnya", "harga perkedel berapa", "harga perkedel berapa ?", "harga perkedel berapa?", "hargaperkedelberapa?", "makasakan telur", "telur balado", "telur dadar", "telur cabe", "telur pedas", "telur gulai", "telurgulai", "telur gulung", "telur rebus", "telurrebus", "olahan telur"],
+      "responses":[
+        "-TELUR <br> ~Telur Balado = 7 000 <br> ~Telur Dadar = 7 000 <br> ~Telur Gulai = 7 000 <br> ~Perkedel = 7 000"
+        ]
+    },
+    {
+      "tag":"sambal",
+      "patterns":["sambal", "terongbalado", "terong bakar", "terong balado", "tempe", "ampela", "sambal terong", "sambaljengkol", "sambaludang", "sambal udang", "sambal kentang", "sambal ijo", "sambal merah", "sambal telur", "sambal teri", "tempe goreng", "sambel kering", "sambel", "sambal merah", "sambalijo", "telurpuyuh", "kentang goreng", "sambal kentang telur", "sambel goreng", "sambal ulek"],
+      "responses":[
+        "-SAMBAL <br> ~Sambal Goreng Asin Tempe = 10 000 <br> ~Sambal Goreng Ati Ampela = 10 000 <br> ~Sambal Goreng Jengkol = 10 000 <br> ~Sambal Goreng Teri Terong = 10 000 <br> ~Sambal Goreng Udang = 15 000 <br> ~Sambal Kentang Telur Puyuh = 10 000 <br> ~Terong Balado = 10 000 <br> ~Sambal Ijo = 5 000 <br> ~Sambal Merah = 5 000"
+        ]
+    },
+    {
+      "tag":"minuman",
+      "patterns":["minuman", "esteh", "es teh", "teh", "teh manis", "teh tawar", "teh hangat", "teh panas", "teh es", "tehpanas", "tehhangat", "minum", "air", "air putih", "minumnya", "minumnya apa", "apa aja minumnya"],
+      "responses":[
+        "-MINUMAN <br> ~Es Teh Manis/Teh Manis Panas = 5 000 <br> ~Air Putih = 1 000"
+        ]
+    },
+    {
+      "tag":"lain2",
+      "patterns":["kerupuk","rice", "sego", "nasi", "nasi putih", "nasi merah", "nasiputih", "nasimerah", "tambah nasi", "nasi tambah", "nasitambah", "nambahnasi", "kerupuk kulit", "kerupukkulit", "lalapan", "harga lalapan", "harga nasi", "harga nasi putih", "harga nasi merah", "harga kerupuk", "hargakerupuk", "harga kerupuk ?"],
+      "responses":[
+        "-LAINNYA <br> ~Nasi Putih = 5 000 <br> ~Nasi Putih Tambah = 3 000 <br> ~Nasi Merah = 6 000 <br> ~Nasi Merah Tambah = 4 000 <br> ~Kerupuk Kulit = 5 000 <br> ~Kerupuk Kulit + Kuah = 6 000 <br> ~Lalapan = 5 000"
+        ]
+    },
+    {
+      "tag":"rekomendasi",
+      "patterns":["rekomendasi", "payu","palinglaris","yang enak apa", "yang paling enak apa", "paling enak", "palinglaku", "paling laku", "paling laris", "recomndasi", "recomended", "terlaris", "yang terenak", "rekomen", "apa saja rekomendasinya", " yang paling laris disini apa saja"],
+      "responses":[
+        "-REKOMENDASI <br> ~Rendang Daging = 14 000 <br> ~Paru Goreng = 14 000 <br> ~Gulai Otak = 14 000 <br> ~Ayam Bakar = 12 500 <br> ~Ayam Goreng Balado = 12 500 <br> ~Gulai Cumi-Cumi = 25 000 <br> ~Ikan Nila Bakar = 20 000"
+        ]
+    },
+    {
+      "tag":"pengertianrmpadang",
+      "patterns":["Rumah Makan", "RM", "Padang", "Warung Padang", "Restoran Padang", "bisnis", "warung makan", "rumah makan", "restoran", "menghidangkan", "kuliner", "masakan", "Minangkabau", "berasal", "Sumatra Barat", "Sumatra", "terkenal", "Indonesia", "berbagai", "bermacam", "bangsa", "lezat", "menyesuaikan", "lidah", "selera", "masyarakat", "berada", "RM Padang", "RMPadang", "RMP", "menghidangkan", "berbeda", "pengertian rumah makan padang", "apa itu rumah makan padang", "rumah makan padang adalah", "restaurant padang adalah", "tanah", "rumahmakanpadang", "warung makan padang", "rumah makan padang terletak", "dimana rumah makan padang", "pengertian singkat", "penjabaran", "masakan minangkabau", "rumah makan bundo", "bundo", "pengertian rmpadang", "rmpadang adalah", "rmpadang adalah ?", "rm padang adalah", "pendiri"],
+      "responses":[
+          "Rumah Makan (RM) Padang atau Warung Padang atau Restoran Padang adalah suatu bisnis warung makan /restoran yang menjual atau menghidang kan berbagai ragam kuliner atau masakan Minangkabau yang berasal dari Sumatra Barat. Rumah makan ini amat terkenal di Indonesia serta dunia, dan disukai oleh berbagai kalangan serta bermacam etnis dan bangsa karena masakan /makanannya yang lezat serta daya adaptasinya yang bisa menyesuaikan diri dengan lidah atau selera masyarakat di mana rumah makan ini berada. (RM) Padang di luar Sumatra Barat menghidangkan masakan yang tidak terlalu pedas, berbeda dengan rumah makan yang ada di tanah kelahirannya sendiri."
+      ]
+    },
+    {
+      "tag":"bantuan",
+      "patterns":["bantuan", "help", "tolong", "susah", "bantu", "tutorial", "contohin"],
+      "responses":[
+        "Ini Adalah Sebuah ChatBot Rumah Makan Padang Kamu Bisa Mengetikkan Kata Yang Berhubungan Dengan Apa Yang Anda Ingin Ketahui Seperti Menu, Harga, Lauk, Minuman, dan Hal yang lainnya seperti Pantun, Kata Kata Bijak, Kata Kata Motivasi, dll Jika Perlu Bantuan Lebih Lanjut Bisa Contac Kita Melalui https://wa.me/081234567890 Mohon Maaf Sebesar Besarnya Atas Ketidaknyamanannya Terimakasih <br> Contoh : <br> - menu <br> - harga <br> - lokasi <br> - contac person <br> - dll"
+        ]
+    },
+    {
+      "tag":"bye",
+      "patterns":["Terima kasih", "goodbye", "stop dong", "good bye", "Terima kasih atas infonya", "sampai jumpa", "bye bro", "adios", "bye", "oke bye", "selamattinggal", "sampai jumpa lagi", "aku akan menyusulmu nanti", "Aku akan menyusul nanti", "oke aku akan menemuimu nanti", "Aku akan berbicara denganmu nanti", "sampai ketemu lagi", "bye bro aku akan bicara denganmu nanti", "Bye saudara laki-laki", "selesai", "thaks", "selamat tinggal", "sayonara", "bye bye", "stop", "selesai", "wes", "hop", "tamat", "end", "terimakasih"],
+      "responses":[
+          "Oke bye",
+          "Semoga harimu menyenangkan",
+          "Silahkan datang lagi ya",
+          "sampai jumpa lagi",
+          "Pembicaraan yang bagus. sampai jumpa",
+          "Oke. Semoga harimu menyenangkan",
+          "Hati-hati",
+          "Semoga kita segera bertemu lagi",
+          "Terimakasih telah berkunjung",
+          "Oke. hati-hati",
+          "Bye Bye",
+          "Bye. Silahkan datang lagi"
+        ]
+    },
+    {
+      "tag":"contac",
+      "patterns":["contac", "kontak", "hubungi", "telp", "wa", "telepon", "nomorhp", "hp", "handphone", "no hp", "nomor hp", "ada no hp", "ada kontaknya"],
+      "responses":[
+        "<a href='https://wa.me/081234567890'> https://wa.me/081234567890 </a>"
+      
+      ]
+    },
+    {
+      "tag":"lokasi",
+      "patterns":["lokasi", "rumah makan terdekat", "terdekat", "warung terdekat", "rumah makan padang terdekat", "padang terdekat", "makan terdekat"],
+      "responses":[
+        "<a href='https://shhh.lol/XUTABE' target='_blank'> Lokasi Warung Makan Padang Terdekat </a>"
+      
+      ]
+    },
+    {
+      "tag":"no answer",
+      "patterns":[""],
+      "responses":[
+          "Maaf, Saya Tidak Mengerti"
+      ]
+    }
+  ]
+}
